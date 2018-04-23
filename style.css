@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(ocean.png);
+}
+#navDiv #nav1 {
+    transition: all ease-in-out 200ms;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 350px;
+    background-color: grey;
+    opacity: 0.7;
+    left: -350px;
+}
+
+#div1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 52px;
+    height: 52px;
+    background-color: blue;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    float: left;
+}
+#div1 p{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#navDiv #nav1 ul{
+    padding: 100px 25px 40px 35px;
+    list-style: none;text-align: center;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+#nav1 input{
+    float: right;
+    margin-top: 7px;
+    padding: 10px;
+    font-size: 19px;
+}
+#nav1 button{
+    float: right;
+    margin-top: 7px;
+    padding: 10px;
+    font-size: 21px;
+    background-color: black;
+    color: white;
+}
