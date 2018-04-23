@@ -2,7 +2,7 @@ var navstat1 = true;
 
 function toggle1(){
     if (navstat1 == false){
-        document.getElementById("nav1").style.left = "-350px";
+        document.getElementById("nav1").style.left = "-400px";
         document.getElementById("nav1").style.opacity = "0.7";
         navstat1 = true;
     }

@@ -5,36 +5,48 @@
 body{
     background-image: url(ocean.png);
 }
-#navDiv #nav1 {
+#nav-main #nav1 {
     transition: all ease-in-out 200ms;
     position: fixed;
     top: 0px;
     left: 0px;
     bottom: 0px;
-    width: 350px;
+    width: 400px;
     background-color: grey;
     opacity: 0.7;
-    left: -350px;
+    left: -400px;
 }
 
-#div1 {
+#burger {
     position: fixed;
     top: 0px;
     left: 0px;
     width: 52px;
     height: 52px;
-    background-color: blue;
+    background-color: #fff;
     transition: all ease-in-out 200ms;
     cursor: pointer;
     float: left;
 }
-#div1 p{
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+#burger span{
+    background: black;
+    display: block;
+    margin: 5px 5px;
+    height: 7px;
+    position: relative;
+    transition: all ease-in-out 0.4s;
+    opacity: 0.5;
+
 }
-#navDiv #nav1 ul{
+/*
+#burger.open span:nth-child(1){
+    transform: rotate(45deg);
+}
+#burger.open span:nth-child(2){
+    transform: rotate(45deg);
+}
+*/
+#nav-main #nav1 ul{
     padding: 100px 25px 40px 35px;
     list-style: none;text-align: center;
 
@@ -58,4 +70,5 @@ ul li a{
     font-size: 21px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
